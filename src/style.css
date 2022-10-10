@@ -22,3 +22,7 @@ span{
 .answer{
     color: rgba(255, 0, 0,1);
 }
+
+.changeDisplay{
+    cursor: pointer;
+}
