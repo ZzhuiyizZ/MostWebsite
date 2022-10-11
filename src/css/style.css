@@ -4,7 +4,6 @@ h1{
 }
 
 body{
-    color:rgba(127, 255, 212,1);
     text-align: center;
     /* background-image: url("../imgs/kj2.jpg"); */
     background-repeat: no-repeat;
@@ -13,17 +12,20 @@ body{
 
 span{
     font-size: 10px;
+    color:rgb(244, 195, 134);
 }
 
 .peopleTxt{
-    color: rgba(11, 255, 243,1);
+    color: rgb(179, 212, 210);
 }
 
 .answer{
     color: rgba(255, 0, 0,1);
 }
 
-.changeDisplay{
+.changeDisplay_video,
+.changeDisplay_img,
+.changeDisplay_gif{
     cursor: pointer;
 }
 
