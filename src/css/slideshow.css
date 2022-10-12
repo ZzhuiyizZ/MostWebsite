@@ -9,7 +9,8 @@ body{
     overflow: hidden; /* 超出隐藏 */
 }
 #carousel img{
-    width: 600px; /* 设定大小 按比例缩放 */
+    width: auto; /* 设定大小 按比例缩放 */
+    height: auto;
 }
 #carousel > ul {
     display: flex; /* 图片处理为一行 */
