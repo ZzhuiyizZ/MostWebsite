@@ -8,6 +8,7 @@ body{
     /* background-image: url("../imgs/kj2.jpg"); */
     background-repeat: no-repeat;
     background-size: cover; 
+    margin-bottom: 40px;
 }
 
 span{
@@ -27,4 +28,8 @@ span{
 .changeDisplay_img,
 .changeDisplay_gif{
     cursor: pointer;
+}
+
+details{
+    margin-bottom: 20px;
 }

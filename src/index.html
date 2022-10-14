@@ -7,13 +7,11 @@
     <title>科技部</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" type="text/css" href="https://at.alicdn.com/t/font_1582902_u0zm91pv15i.css">
-    <link rel="stylesheet" href="./css/slideshow.css">
     <script src="./js/main.js" defer></script>
-
   </head>
   <body>
     <header>
-      <img src="../assets/imgs/img1.jpg" style="width:70%;height:70%;">
+      <img src="../assets/imgs/img1.jpg" style="width:100%;height:100%;">
     <main>
       <!-- <h1>欢迎加入科技部！</h1> -->
       <div class="answer">
@@ -26,16 +24,60 @@
         <h4>这里有：摄影、剪辑突出的于梦玲副部</h4>
         <h4>这里有：专业、技能突出的张志斌副部</h4>
       </div>
+
+      <details>
+        <!-- 定义标题 -->
+        <summary>科技部招新的详细信息</summary>
+        <address>
+          <div class="detail">
+            <h4>招聘：4名小干事</h4>
+            <h4>要求如下：1.热爱生活 2.有责任心 3.有上进心 4.有一定的抗压能力</h4>          
+          </div>
+        </address>
+      </details>
+
+
+      <details>
+        <!-- 定义标题 -->
+        <summary>招新视频</summary>
+        <address>
+          <div style="text-align: center;">
+            <video controls="controls" width="60%" height="60%">
+                <!-- 定义媒体资源  好处：当多个出现时，浏览器会选择任意一个所支持的播放 --> 
+                <source src="../assets/video/video.mp4" type="video/mp4" />
+              </video>
+          </div>
+        </address>
+      </details>
       
+      <details>
+        <!-- 定义标题 -->
+        <summary>宣传海报</summary>
+        <address>
+          <div style="text-align: center;">
+            <img src="../assets/imgs/poster.png " width="60%" height="60%"/>
+          </div>
+        </address>
+      </details>
+
+      <details>
+        <!-- 定义标题 -->
+        <summary>科技部-部徽</summary>
+        <address>
+          <div style="text-align: center;">
+            <img src="../assets/gif/badge.gif " width="60%" height="60%"/>
+          </div>
+          <p> &nbsp;&nbsp;叮~ 科技部的天空即将点亮四颗星星，这里诚邀满怀热情，永葆热忱的你共览我们的璀璨星河。</p>
+        </address>
+      </details>
+      <!--
       <h4>招新视频&nbsp; <span  class="changeDisplay_video">展开</span></h4>
       <div class="change_video" style="display: none;text-align: center;">
         <video controls="controls" width="60%" height="60%">
-            <!-- 定义媒体资源  好处：当多个出现时，浏览器会选择任意一个所支持的播放 --> 
             <source src="../assets/video/video.mp4" type="video/mp4" />
           </video>
       </div>
-
-      <!-- 宣传海报 -->
+      
       <h4>宣传海报&nbsp; <span class="changeDisplay_img">展开</span></h4>
       <div class="change_img" style="display: none;text-align: center;">
         <img src="../assets/imgs/poster.png " width="60%" height="60%"/>
@@ -46,8 +88,7 @@
       <div class="change_gif" style="display: none;text-align: center;">
         <img src="../assets/gif/badge.gif " width="60%" height="60%"/>
       </div>
-
-    </main>
+       -->
+    </main> 
   </body>
-  <script type="text/javascript" src="./js/slideshow.js"></script>
 </html>
